@@ -1,5 +1,8 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 0
+    size: 2
+    values:
+      - test
+      - test/test.txt
   options: 4
