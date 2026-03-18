@@ -1,8 +1,10 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 2
+    size: 4
     values:
+      - Capsule.mesh
+      - PBR 2.mat
       - test
       - test/test.txt
   options: 4
