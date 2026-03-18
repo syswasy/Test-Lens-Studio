@@ -1,10 +1,18 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 4
+    size: 12
     values:
+      - Base.png
       - Capsule.mesh
-      - PBR 2.mat
-      - test
+      - Echopark.hdr
+      - MaterialParams.png
+      - Normal.png
+      - PBR.mat
+      - Scene.scene
+      - Sphere.mesh
+      - Text3D.mat
+      - pbr.ss_graph
       - test/test.txt
+      - text_3d.ss_graph
   options: 4

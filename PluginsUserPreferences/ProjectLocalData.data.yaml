@@ -1,3 +1,8 @@
 data:
   externalSources:
-    - 3a803e6a-5249-42ae-926d-6df63f17856e: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Capsule.mesh"
+    - 14de991b-0dfd-42b8-bfdd-f8352ea6d11b: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/PBRMaterial/Resources/pbr.ss_graph"
+    - 498a88b5-e63c-4a12-ada2-a612242d72b5: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Resources/Normal.png"
+    - 7c323c2d-6224-4e8f-bb41-06b34568f23d: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Resources/Base.png"
+    - c01a46cb-09a7-45fa-8abb-60f447f25b24: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Resources/MaterialParams.png"
+    - d8302723-6d00-4007-9556-5f4db218237e: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Sphere.mesh"
+    - f13da65b-2898-44f5-b8fa-981eecf8a666: "C:/Program Files/Snap Inc/Lens Studio/JsPlugins/PresetsRegistry/Assets/Text3DMaterial/Resources/text_3d.ss_graph"

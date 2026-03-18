@@ -4,6 +4,7 @@
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> 36344f1b-3abf-49d8-b25a-73da2e5e9a5f
+    - !<own> 51030058-01d1-4729-b8b4-67c680529aa9
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -185,6 +186,21 @@
     []
   Components:
     - !<own> 5fc42914-8c7f-47b4-90f1-145b32021f56
+- !<SceneObject/51030058-01d1-4729-b8b4-67c680529aa9>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 20.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cb3aa7a7-0666-46fa-9bb2-c9a18db118c1
 - !<RenderMeshVisual/5fc42914-8c7f-47b4-90f1-145b32021f56>
   PrefabRemaps:
     []
@@ -205,3 +221,41 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<Text3D/cb3aa7a7-0666-46fa-9bb2-c9a18db118c1>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d373a34a-190e-4b95-a20a-90a46f0d7af3
+  Text: |
+    TEST
+
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
